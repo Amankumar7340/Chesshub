@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chess Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Add some additional styles to ensure the board is visible */
+        #board {
+            width: 400px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .board-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Chess Game</h1>
+        
+        <div class="game-info">
+            <div id="status">Welcome to Chess! Click "Start New Game" to begin.</div>
+            <div id="fen"></div>
+            <div id="pgn"></div>
+        </div>
+        
+        <div class="board-container">
+            <div id="board"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn">Start New Game</button>
+            <button id="flipBtn">Flip Board</button>
+        </div>
+        
+        <div class="game-id">
+            <p>Game ID: <span id="gameId">None</span></p>
+            <div class="join-game">
+                <input type="text" id="joinGameId" placeholder="Enter Game ID">
+                <button id="joinBtn">Join Game</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load JavaScript libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard-js/1.0.0/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
