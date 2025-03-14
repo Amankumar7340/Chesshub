@@ -2,6 +2,9 @@
 
 A real-time multiplayer chess game that allows two players to play against each other online.
 
+# Url: 
+https://chessroyale-indol.vercel.app/
+
 ## Features
 
 - Real-time gameplay using Socket.IO
