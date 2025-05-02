@@ -28,10 +28,3 @@ https://chessroyale-indol.vercel.app/
 2. Share the Game ID with an opponent
 3. Your opponent enters the Game ID and clicks "Join Game"
 4. Play chess in real-time!
-
-## How to Use
-
-1. Start a new game by clicking "Start New Game"
-2. Share the Game ID with an opponent
-3. Your opponent enters the Game ID and clicks "Join Game"
-4. Play chess in real-time!
