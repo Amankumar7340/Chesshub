@@ -28,3 +28,18 @@ https://chessroyale-indol.vercel.app/
 2. Share the Game ID with an opponent
 3. Your opponent enters the Game ID and clicks "Join Game"
 4. Play chess in real-time!
+
+## Technologies Used
+
+- Node.js
+- Express
+- Socket.IO
+- Chess.js
+- Chessboard.js
+
+## How to Use
+
+1. Start a new game by clicking "Start New Game"
+2. Share the Game ID with an opponent
+3. Your opponent enters the Game ID and clicks "Join Game"
+4. Play chess in real-time!
